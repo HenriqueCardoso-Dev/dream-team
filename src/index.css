@@ -1,0 +1,13 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.input-field input{
+  background-color: #fff;
+  box-shadow: 10px 10px 300px rgba(0, 0, 0, 0.06);
+  border: none;
+  font-size: 17px;
+  box-sizing: border-box;
+}

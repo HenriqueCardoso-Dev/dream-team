@@ -1,0 +1,10 @@
+.player-card {
+  width: 262px;
+  box-sizing: border-box;
+}
+
+.player-card img {
+  width: 262px;
+  height: 329px;
+  object-fit: cover;
+}

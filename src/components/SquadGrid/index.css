@@ -1,0 +1,20 @@
+.squad-grid {
+  background: linear-gradient(
+    141deg,
+    rgba(2,0,36,1) 13%, 
+    rgba(9,121,35,0.9528186274509804) 38%, 
+    rgba(112, 223, 52, 0.886) 100%
+  );
+
+  color: rgb(255, 253, 253);
+}
+
+.squad-grid h3 {
+  width: max-content;
+  font-size: 32px;
+  border-bottom: 4px solid #57C278;
+}
+
+.squad-grid .players {
+  width: 100%;
+}
