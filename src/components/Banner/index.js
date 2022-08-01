@@ -1,6 +1,7 @@
 import React, {Component} from "react";
-import bannerImg from './../../../public/images/banner2.png';
-import defaultStyle from './index.css'
+import bannerImg from './../../../public/images/logo.png';
+import defaultStyle from './index.css';
+import {Link} from 'react-router-dom';
 
 class Banner extends Component {
   render() {
@@ -14,8 +15,16 @@ class Banner extends Component {
 
     return (
       <div className="banner py-4" style={!this.props.squads ? emptySquadsStyle : defaultStyle}>
-        <h2>MASKED ALIENS</h2>
-        <img src={bannerImg} alt="banner" />
+        <h2>DREAM TEAM</h2>
+        <img className="my-3" src={bannerImg} alt="banner" />
+        {
+          !this.props.squads&&<div>
+            <p>chegou a hora de montar seu time dos sonhos!</p>
+            <Link to="/register-member">
+              <button className="btn btn-success">vamos lá!</button>
+            </Link>
+          </div>
+        }
       </div>
     );
   }

@@ -33,7 +33,7 @@ const RegisterMember = (props) => {
   }
 
   return (
-    <section className="d-flex justify-content-center">
+    <section className="d-flex justify-content-center register-member">
       <form className="form px-5 py-3" onSubmit={registerMember}>
         <h2>CADASTRO DE MEMBRO</h2>
         <TextInput label="Nome" required={true} value={name} setValue={response => setName(response)}/>

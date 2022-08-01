@@ -47,13 +47,13 @@ const Home = (props) => {
 
   return (
     <AppDiv>
-      <Banner squads={props.members.length > 0}/>
+      <Banner squads={staticPlayers.length > 0}/>
 
       {props.squads.map(
         squad => <SquadGrid 
           squad={squad.label} 
           key={squad.id} 
-          players={props.members.filter(member => member.squad === squad.id)}
+          players={staticPlayers.filter(member => member.squad === squad.id)}
         />
       )}
   
