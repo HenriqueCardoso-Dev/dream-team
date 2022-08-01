@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import Home from './components/Home';
 import RegisterMember from './components/Forms/RegisterMember';
-import NavBar from './components/NavBar/NavBar';
+import NavBar from './components/NavBar';
 
 const App = () => {
 

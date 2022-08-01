@@ -1,5 +1,5 @@
 import React from "react";
-import bannerImg from './../../../public/images/logo.png';
+import bannerImg from './../../assets/images/logo.png';
 import { OffCanvas } from "./style";
 import { GiHamburgerMenu, GiArchiveRegister } from 'react-icons/gi';
 import { FaHome } from 'react-icons/fa';

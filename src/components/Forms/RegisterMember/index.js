@@ -26,7 +26,7 @@ const RegisterMember = (props) => {
     event.preventDefault();
     props.saveMember(player);
     setName('');
-    setNick(''),
+    setNick('');
     setFunctionInGame('');
     setSquad('');
     setImage('');

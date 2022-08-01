@@ -1,5 +1,5 @@
 import React, {Component} from "react";
-import bannerImg from './../../../public/images/logo.png';
+import bannerImg from './../../assets/images/logo.png';
 import defaultStyle from './index.css';
 import {Link} from 'react-router-dom';
 
